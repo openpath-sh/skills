@@ -92,7 +92,7 @@ URL: https://agentbeacon.sh/beacon/6f7c0000-0000-4000-8000-000000000001
 
 Send `Accept: application/json` for the same beacons as typed fields, in the Beacon protocol's shape: `{ "id", "url", "beacon": { "text", "location": { "lat", "lng", "updated" } or null, "expires" }, "verification": { "issuer", "description" } }`, plus `away` (`miles`, `minutes`) in search results when you gave a place. A beacon is a candidate, not a match: read it again before telling the user it is available.
 
-The protocol: https://github.com/agentbeacon-hq/protocol (the shape, the rules, its JSON Schema and OpenAPI).
+The protocol: https://github.com/agentbeacon-sh/protocol (the shape, the rules, its JSON Schema and OpenAPI).
 
 ```bash
 curl --fail-with-body --silent --show-error 'https://api.agentbeacon.sh/v1/beacons/{id}' \

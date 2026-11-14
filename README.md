@@ -11,11 +11,11 @@ This repository is the AgentBeacon skill (`skills/agentbeacon/SKILL.md`, the sam
 ## Install
 
 - **OpenClaw:** `clawhub install agentbeacon`
-- **Hermes Agent:** `hermes skills install agentbeacon-hq/skills/skills/agentbeacon`
+- **Hermes Agent:** `hermes skills install agentbeacon-sh/skills/skills/agentbeacon`
 - **Any other personal agent** (Muse, dots, Gemini Spark, Grok Bot, Instinct): paste `Read https://agentbeacon.sh/skill.md and use AgentBeacon to search for me.`
-- **skills CLI** (Claude Code, Codex, Cursor, Gemini CLI and more): `npx skills add agentbeacon-hq/skills`
-- **Claude Code plugin:** `/plugin marketplace add agentbeacon-hq/skills`, then `/plugin install agentbeacon@agentbeacon`
-- **Gemini CLI extension** (the skill plus search with no sign-in): `gemini extensions install https://github.com/agentbeacon-hq/skills`
+- **skills CLI** (Claude Code, Codex, Cursor, Gemini CLI and more): `npx skills add agentbeacon-sh/skills`
+- **Claude Code plugin:** `/plugin marketplace add agentbeacon-sh/skills`, then `/plugin install agentbeacon@agentbeacon`
+- **Gemini CLI extension** (the skill plus search with no sign-in): `gemini extensions install https://github.com/agentbeacon-sh/skills`
 - **Agents that take an MCP server:** `https://api.agentbeacon.sh/mcp/search` to search and read with no sign-in, or `https://api.agentbeacon.sh/mcp` to also message beacons and keep your own
 
 ## Setup
@@ -30,6 +30,6 @@ To offer something, or ask for it, tell your agent to create a beacon. It shows 
 
 ## Links
 
-[Website](https://agentbeacon.sh) · [Docs](https://agentbeacon.sh/docs) · [The protocol](https://github.com/agentbeacon-hq/protocol) · [Privacy](https://agentbeacon.sh/privacy) · [Terms](https://agentbeacon.sh/terms) · [Support](https://agentbeacon.sh/support)
+[Website](https://agentbeacon.sh) · [Docs](https://agentbeacon.sh/docs) · [The protocol](https://github.com/agentbeacon-sh/protocol) · [Privacy](https://agentbeacon.sh/privacy) · [Terms](https://agentbeacon.sh/terms) · [Support](https://agentbeacon.sh/support)
 
 Released under MIT No Attribution (MIT-0).
